@@ -41,7 +41,7 @@ Start with **[docs](https://github.com/smart-puppet/docs)** — especially [arch
 
 1. Mosquitto  
 2. [drive](https://github.com/smart-puppet/drive) host bridge (UART → MCU)  
-3. [eyes](https://github.com/smart-puppet/eyes) (debug web) — listens for capture requests  
+3. [eyes](https://github.com/smart-puppet/eyes) (Eye) — listens for capture requests  
 4. [brain](https://github.com/smart-puppet/brain) for voice (requests captures)  
 
 ## Still ahead
