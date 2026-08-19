@@ -24,7 +24,7 @@ flowchart LR
 
 | Repo | Role |
 |------|------|
-| [eyes](https://github.com/smart-puppet/eyes) | Camera, YOLO, metric depth, floor segmentation → traversability scene |
+| [eyes](https://github.com/smart-puppet/eyes) | Camera, YOLO, metric depth → traversability scene |
 | [drive](https://github.com/smart-puppet/drive) | MQTT ↔ UART ↔ MCU (FIFO, watchdog, estop) |
 | [brain](https://github.com/smart-puppet/brain) | Voice: Parakeet STT, llama.cpp Gemma, Piper TTS (Kace) |
 | [docs](https://github.com/smart-puppet/docs) | Architecture and MQTT topic contracts |
@@ -48,6 +48,5 @@ Start with **[docs](https://github.com/smart-puppet/docs)** — especially [arch
 
 - Costmap local planner (step 4 in [movement](https://github.com/smart-puppet/docs/blob/main/movement.md))
 - Robot-hides hide-and-seek
-- Stronger indoor floor segmentation
 
 Built for Jetson Orin Nano–class hardware. Weights and TensorRT engines are built locally; they are not stored in these repos.
